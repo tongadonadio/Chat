@@ -1,0 +1,12 @@
+.app {
+  position: relative;
+  top: 30px;
+  height: calc(100% - 50px);
+  margin: auto;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.row-container-app {
+  margin: 0px;
+}

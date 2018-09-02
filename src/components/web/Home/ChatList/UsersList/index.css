@@ -1,0 +1,52 @@
+.users-list-sidebar {
+  padding: 0;
+  margin: 0;
+  height: calc(100% - 80px);
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.user-list-sidebar-body {
+  padding: 10px;
+  height: 75px;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.user-list-sidebar-body:hover {
+  background-color: #f2f2f2;
+}
+
+.user-list-avatar img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.user-list-time {
+  font-size: 12px;
+  color: #9a9a9a;
+  max-height: 35px;
+}
+
+.user-list-position-state {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+@media (max-width: 768px) {
+  #col-user-avatar {
+    width: 20%;
+  }
+  #col-user-information {
+    width: 80%;
+  }
+  #col-user-information-name {
+    width: 60%;
+  }
+  #col-user-information-time {
+    width: 40%;
+  }
+}

@@ -1,0 +1,62 @@
+.message-reply-content {
+  height: 60px;
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  margin: 0;
+}
+
+.message-reply-emojis {
+  padding-left: 1%;
+}
+
+.message-reply-emojis i {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  color: #93918f;
+  cursor: pointer;
+}
+
+.message-reply-send i {
+  text-align: center;
+  padding: 5px;
+  color: #93918f;
+  cursor: pointer;
+}
+
+.reply-main {
+  padding-left: 1%;
+}
+
+.reply-main textarea {
+  width: 100%;
+  resize: none;
+  padding: 5px;
+  height: 100%;
+  font-size: 15px;
+}
+
+.reply-main textarea:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.emoji-picker {
+  position: absolute !important;
+  bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .message-reply-emojis {
+    width: 10%;
+    padding-left: 5px;
+  }
+
+  .reply-main {
+    width: 80%;
+  }
+
+  .message-reply-send {
+    width: 10%;
+    padding-left: 5px;
+  }
+}

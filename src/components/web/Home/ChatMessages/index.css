@@ -1,0 +1,27 @@
+.chat-messages{
+    padding: 0;
+}
+
+@media (min-width: 768px){
+    .chat-messages {
+        display:block;
+    }
+
+    .chat-list {
+        display:block;
+    }
+
+    #ChatMessages {
+        display:block;
+    }
+
+    #Home {
+        display:block;
+    }
+}
+
+@media (max-width: 768px){
+    .chat-messages {
+        display:none;
+    }
+}

@@ -1,0 +1,20 @@
+.container-login{
+    padding-top: 5%;
+    height: auto;
+}
+.container-image-login{
+    text-align: center;
+    height: auto;
+}
+
+.profile-img-card {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+#file-input{
+    display: none;
+}

@@ -1,0 +1,44 @@
+html,
+body,
+div,
+span {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: url("./img/background.png") no-repeat fixed center;
+  background-size: cover;
+  height: 100%;
+}
+
+.theme-light-header {
+  background-color: #eee;
+}
+
+.theme-dark-header {
+  background-color: darkgrey;
+}
+
+.theme-light-body {
+  background-color: #fbfbfb;
+}
+
+.theme-dark-body {
+  background-color: rgba(208, 208, 208, 0.918);
+}
+
+.theme-light-footer {
+  background-color: #f5f1ee;
+}
+
+.theme-dark-footer {
+  background-color: #bbbaba;
+}
+
+.theme-light-home {
+  background-color: #f7f7f7;
+}
+
+.theme-dark-home {
+  background-color: #777777;
+}

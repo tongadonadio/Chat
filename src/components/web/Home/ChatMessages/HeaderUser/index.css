@@ -1,0 +1,53 @@
+.header-user-msg {
+  padding: 10px 15px 10px 15px;
+  margin: 0;
+  height: 60px;
+  width: 100%;
+}
+
+.header-user-msg-avatar img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.header-user-msg-name {
+  font-weight: 700;
+  color: #000;
+}
+
+.header-user-msg-writing {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.header-user-logout {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.header-user-logout i {
+  margin-top: 5px;
+  color: #93918f;
+}
+
+.dropdown-theme button {
+  color: #93918f;
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-theme .dropdown-menu {
+  height: auto;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #col-avatar {
+    width: 20%;
+  }
+
+  #col-name-chat {
+    width: 80%;
+  }
+}
